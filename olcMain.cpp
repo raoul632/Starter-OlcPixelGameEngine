@@ -12,6 +12,7 @@ public:
 public:
 	bool OnUserCreate() override
 	{
+		std::cout << "Hello World"; 
 		// Called once at the start, so create things here
 		return true;
 	}
